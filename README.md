@@ -2,7 +2,7 @@
 This is a thing I made for SMRRF 2026. You basically wave it, and it displays a message. See https://hackaday.com/2019/10/29/the-basics-of-persistence-of-vision-projects/ for more info.
 
 ## How to run
-This project was made using the Arduino IDE. Both the 2.0 and 1.9 version should work, but i used the 1.9 legacy version. I've programmed it for the microbit v2; you'll need to make some changes for the ROW and COL pins as well as redoing `output_cols()` if you want to use the v1. Some v1 variants have a separate magnetometer and accelerometer so you'll have to use the MMA8653 library.
+This project was made using the Arduino IDE. Both the 2.0 and 1.9 version should work, but i used the 1.9 legacy version. I've programmed it for the microbit v2; if you want to use the v1 you'll need to make some changes for the ROW and COL pins as well as redoing `output_cols()`. Some v1 variants have a separate magnetometer and accelerometer so you'll have to use the MMA8653 library if that applies to yours.
 
 The following instructions are paraphrased from https://learn.adafruit.com/use-micro-bit-with-arduino/overview
 

@@ -4,6 +4,8 @@ This is a thing I made for SMRRF 2026. You basically wave it, and it displays a 
 ## How to run
 This project was made using the Arduino IDE. Both the 2.0 and 1.9 version should work, but i used the 1.9 legacy version. I've programmed it for the microbit v2; if you want to use the v1 you'll need to make some changes for the ROW and COL pins as well as redoing `output_cols()`. Some v1 variants have a separate magnetometer and accelerometer so you'll have to use the MMA8653 library if that applies to yours.
 
+feb25a lets you hold it horizontally so you can hold the usb cable and mar03a is the final version where you hold it vertically. See the source for how exactly you hold it.
+
 The following instructions are paraphrased from https://learn.adafruit.com/use-micro-bit-with-arduino/overview
 
 1. Download the board support pack. Paste https://sandeepmistry.github.io/arduino-nRF5/package_nRF5_boards_index.json into the Additional Board Manager URL text box in Preferences.
